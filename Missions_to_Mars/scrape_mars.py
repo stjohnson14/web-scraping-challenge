@@ -79,11 +79,11 @@ def scrape():
     print(hemisphere_image_urls)
 
 mars_data = {
-    'news_title':
-    'news_p':
-    'featured_image_url':
-    'facts':
-    'hemispheres': }
+    'news title': latest_title,
+    'news paragraph': latest_p,
+    'featured image url': feat_image_url
+    'facts': galaxy_html,
+    'hemispheres': hemisphere_image_urls }
 
     browser.quit()
 
